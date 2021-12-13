@@ -9,7 +9,7 @@ body{
     background: black;
 }
 #contact-body{
-    background: white;
+    background:url(../images/kettlebell.jpg);
 }
 nav{
     width: 100%;
@@ -88,7 +88,7 @@ footer{
 
 /*Contact Us Page Css*/
 .service{
-    color: black;
+    color: white;
     text-align: center;
 }
 table,
@@ -139,7 +139,7 @@ td {
 }
 .contact-right-col{
     flex-basis: 50%;
-    color: black;
+    color: white;
 }
 .form{
     width: 70%;
@@ -157,8 +157,110 @@ textarea{
     margin-bottom: 10px;
 }
 .c-btn{
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     padding: 10px;
     width: 50%;
 }
+/*Sign Up Page CSS*/
+#signup{
+    background:url(../images/gym.jpg);
+    background-size: cover;
+    font-family: Arial,Verdana,Georgia,'Times New Roman',sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+input,select,button{
+    font-family:  Arial,Verdana,Georgia,'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #333;
+}
+h3,h4{
+    margin: 0%;
+    color: black;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+}
+.inner{
+    padding: 20px;
+    background: #fff;
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+}
+.inner .image-holder{
+    width: 50%;
+}
+.inner form{
+    width: 50%;
+}
+form{
+    padding-top: 36px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.inner h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.form-group{
+    display: flex;
+}
+.form-group input{
+    position: relative;
+}
+.form-control{
+    border: 1px solid #333;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-right: 0fr;
+    margin-bottom: 25px;
+}
+select{
+    cursor: pointer;
+    color: grey;
+}
+select option[value=""][disabled]{
+    display: none;
+}
+button{
+    border: none;
+    width: 164px;
+    height: 51px;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    background: #333;
+    font-size: 15px;
+    color: #fff;
+}
+button:hover{
+    background: #74b9ff;
+}
+@media (max-width: 767px){
+    .inner{
+        display: block;
+    }
+    .inner .image-holder{
+        width: 100%;
+    }
+    .inner form{
+        width: 100%;
+        padding: 40px 0 30px;
+    }
+    button{
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:800px){
+    *{ float:none; width:100%;}
+  }
