@@ -77,6 +77,9 @@ nav{
     border: 1px solid #74b9ff;
     font-family: Arial,Verdana,Georgia,'Times New Roman',sans-serif;
 }
+a:link {
+    text-decoration: none;
+  }
 footer{
     background: black;
     color: white;
