@@ -264,7 +264,7 @@ input[type="password"] {
   border-radius: 16px;
 }
 
-button {
+.button-login {
   background-color: #74b9ff;
   cursor: pointer;
   color: white;
